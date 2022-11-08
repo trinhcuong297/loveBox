@@ -1,7 +1,9 @@
 import Link from 'next/link';
-import router from 'next/router';
+// import router from 'next/router';
+import { useRouter } from 'next/router';
 
 export default function Navbar() {
+  const router = useRouter();
   return (
     <div className="fixed flex justify-center w-screen">
       <div className="navbar bg-gray-900/50 m-1 mt-2 md:mx-8 rounded-lg">
@@ -28,13 +30,13 @@ export default function Navbar() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link href="">Homepage</Link>
+                <Link href="/">Homepage</Link>
               </li>
               <li>
-                <Link href="">Our story</Link>
+                <Link href="/">Our story</Link>
               </li>
               <li>
-                <Link href="">Gallery</Link>
+                <Link href="/">Gallery</Link>
               </li>
             </ul>
           </div>
