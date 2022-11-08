@@ -5,8 +5,8 @@ import { useRouter } from 'next/router';
 export default function Navbar() {
   const router = useRouter();
   return (
-    <div className="fixed flex justify-center w-screen">
-      <div className="navbar bg-gray-900/50 m-1 mt-2 md:mx-8 rounded-lg">
+    <div className="fixed flex justify-center w-screen z-10">
+      <div className="navbar bg-gray-900/75 m-1 mt-2 md:mx-8 rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
