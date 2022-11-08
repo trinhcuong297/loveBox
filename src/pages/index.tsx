@@ -1,5 +1,11 @@
-import { Base } from '../templates/Base';
+import Hero from '../home/hero';
 
-const Index = () => <Base />;
+const Index = () => {
+  return (
+    <>
+      <Hero />
+    </>
+  );
+};
 
 export default Index;
