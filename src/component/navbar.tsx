@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="navbar bg-gray-900/75 m-1 mt-2 md:mx-8 rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost btn-circle">
+            <label tabInde x={0} className="text-gray-100 btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -53,7 +53,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle">
+          <button className="btn btn-ghost text-gray-100 btn-circle">
             <Link href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
