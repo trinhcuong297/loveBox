@@ -1,10 +1,15 @@
 export default function Gallery() {
-  const dataImg = ['https://source.unsplash.com/random/301x301/'];
+  const dataImg = [
+    'https://i.imgur.com/AgPuunW.jpg',
+    'https://i.imgur.com/zISwNMI.jpg',
+    'https://i.imgur.com/oARhoFA.jpg',
+    'https://i.imgur.com/5eyYSmm.jpg',
+  ];
   return (
     <>
       <section className="py-6">
         <div className="w-full flex justify-center">
-          <h1 className="m-8 text-6xl font-bold">
+          <h1 className="m-8 text-6xl text-gray-500 font-bold">
             Our <span className="text-red-500">Memory</span>
           </h1>
         </div>
@@ -17,7 +22,7 @@ export default function Gallery() {
                   src={url}
                   key={index}
                   alt=""
-                  className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
+                  className="col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500"
                 />
               );
             }
@@ -26,7 +31,7 @@ export default function Gallery() {
                 src={url}
                 key={index}
                 alt=""
-                className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
+                className="rounded shadow-sm min-h-48 dark:bg-gray-500"
               />
             );
           })}
