@@ -36,7 +36,7 @@ export default function Timer() {
           We <span className="text-red-500">love</span>
         </h1>
       </div>
-      <div className="w-full flex justify-center p-8">
+      <div className="w-full flex justify-center p-8 text-gray-200">
         <div className="flex gap-5">
           <div>
             <span className="font-mono text-4xl">
