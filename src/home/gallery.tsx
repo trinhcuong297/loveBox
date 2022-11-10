@@ -4,6 +4,8 @@ export default function Gallery() {
     'https://i.imgur.com/zISwNMI.jpg',
     'https://i.imgur.com/oARhoFA.jpg',
     'https://i.imgur.com/5eyYSmm.jpg',
+    'https://i.imgur.com/UvzSqyQ.jpg',
+    
   ];
   return (
     <>
