@@ -74,7 +74,7 @@ export default function Timer() {
         </span>
       </div>
            <div className="w-full flex justify-center mt-4">
-        <span className="flex text-gray-500 font-bold">
+        <span className="flex text-gray-500 font-bold justify-center items-center">
           Thí nghiệm đo gia tốc vào lòng em <br/> 8h59.6.6.2022
         </span>
       </div>
