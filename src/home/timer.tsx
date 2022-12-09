@@ -7,7 +7,7 @@ export default function Timer() {
   setInterval(() => {
     const current = Date();
     let seconds: any =
-      (Date.parse(current) - Date.parse('06 Jun 2022 08:35:00 GMT+0700')) /
+      (Date.parse(current) - Date.parse('06 Jun 2022 08:59:00 GMT+0700')) /
       1000;
     const days = Math.floor(seconds / (3600 * 24));
     seconds %= 3600 * 24;
@@ -71,6 +71,11 @@ export default function Timer() {
             aria-hidden="true"
           />
           <HeartIcon className="text-red-400 h-20 w-20" aria-hidden="true" />
+        </span>
+      </div>
+           <div className="w-full flex justify-center">
+        <span className="flex text-gray-500 font-bold">
+          Thí nghiệm đo gia tốc vào lòng em - 8h59.6.6.2022
         </span>
       </div>
     </div>
