@@ -73,9 +73,9 @@ export default function Timer() {
           <HeartIcon className="text-red-400 h-20 w-20" aria-hidden="true" />
         </span>
       </div>
-           <div className="w-full flex justify-center">
+           <div className="w-full flex justify-center mt-4">
         <span className="flex text-gray-500 font-bold">
-          Thí nghiệm đo gia tốc vào lòng em - 8h59.6.6.2022
+          Thí nghiệm đo gia tốc vào lòng em <br/> 8h59.6.6.2022
         </span>
       </div>
     </div>
